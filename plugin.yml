@@ -1,0 +1,20 @@
+name: simplehubcommand
+main: me.cgfx360.simplehubcommand.SimpleHubCommand
+version: 1.5
+description: >
+             Simply sets a spawn location for hub.
+commands:
+  sethub:
+    description: Set's the hub teleport location.
+    permission: hub.set
+    permission-message: §cYou don't have permission
+  hub:
+    description: Teleports you to the hub location.
+    permission: hub.use
+    permission-message: §cYou don't have permission
+permissions:
+  hub.set:
+    default: op
+  hub.use:
+    default: true
+    
